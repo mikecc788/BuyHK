@@ -1,0 +1,8 @@
+{
+  "name": "simple-web-project",
+  "version": "1.0.0",
+  "description": "A simple web project",
+  "scripts": {
+    "start": "echo \"Add your start script here\" && exit 1"
+  }
+}
