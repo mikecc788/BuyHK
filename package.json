@@ -1,8 +1,12 @@
 {
-  "name": "simple-web-project",
+  "name": "hk-cosmetics-reseller",
   "version": "1.0.0",
-  "description": "A simple web project",
+  "description": "香港彩妆代购网站",
+  "main": "server.js",
   "scripts": {
-    "start": "echo \"Add your start script here\" && exit 1"
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
