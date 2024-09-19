@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>香港彩妆代购</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>香港彩妆代购</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">首页</a></li>
+                <li><a href="#products">产品</a></li>
+                <li><a href="#about">关于我们</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="carousel">
+                <button class="carousel-button prev">&lt;</button>
+                <button class="carousel-button next">&gt;</button>
+                <div class="carousel-container">
+                    <img src="images/scroll_1.avif" alt="Scroll 1" class="carousel-image active">
+                    <img src="images/scroll_2.avif" alt="Scroll 2" class="carousel-image">
+                    <img src="images/scroll_3.avif" alt="Scroll 3" class="carousel-image">
+                    <img src="images/scroll_4.avif" alt="Scroll 4" class="carousel-image">
+                    <img src="images/scroll_5.avif" alt="Scroll 5" class="carousel-image">
+                </div>
+                <div class="carousel-indicators"></div>
+            </div>
+            <h2>欢迎来到香港彩妆代购</h2>
+            <p>我们提供最新、最优质的香港彩妆产品。</p>
+        </section>
+
+        <section id="products">
+            <h2>热门产品</h2>
+            <div class="product-list">
+                <!-- 产品将通过JavaScript动态添加 -->
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>关于我们</h2>
+            <p>我们是专业的香港彩妆代购团队，致力于为您带来最优质的产品和服务。</p>
+        </section>
+
+        <section id="contact">
+            <h2>联系我们</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="您的姓名" required>
+                <input type="email" name="email" placeholder="您的邮箱" required>
+                <textarea name="message" placeholder="您的留言" required></textarea>
+                <button type="submit">发送</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 香港彩妆代购. 保留所有权利。</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "build": "mkdir -p dist && cp -r index.html styles.css script.js server.js images package.json dist/"
+    "build": "mkdir -p dist/analog/public && cp -r index.html styles.css script.js server.js images package.json dist/analog/public/"
   },
   "dependencies": {
     "express": "^4.17.1"
